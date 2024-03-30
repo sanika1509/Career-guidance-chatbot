@@ -1,13 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Chat from "./chat/Chat";
+import ChatLists from "./chatLists/chatLists";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+import Navbar from './Navbar';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "*",
+    element : <Chat />,
+  },
+  {
+    path : "chat",
+    element : <Chat />,
+  },
+  {
+    path : "chatlist",
+    element : <ChatLists />
+  }
+]);
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

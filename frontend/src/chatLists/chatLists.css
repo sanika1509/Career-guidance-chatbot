@@ -1,0 +1,43 @@
+.center-text {
+  text-align: center;
+}
+
+.chat-parent {
+  border: 2px rgb(226, 226, 226) solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 10px 0px;
+  border-radius: 12px;
+}
+
+.chat-text {
+  text-overflow: ellipsis;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  max-width: 100%;
+}
+
+.chat-time {
+    color: grey;
+    font-size: 14px;
+}
+.chats-buttons-parent {
+}
+
+.chats-header-and-new-button {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-time-and-message-parent {
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    min-width: 20%;
+    max-width: 60%;
+}

@@ -1,0 +1,13 @@
+.image-content {
+    height: 140px;
+}
+
+label {
+    margin: 10px 0px;
+}
+/* important don't update */
+.profile-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

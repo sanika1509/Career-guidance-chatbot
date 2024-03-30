@@ -1,0 +1,33 @@
+.chat-no-messsages {
+    text-align: center;
+    color: royalblue;
+    font-size: 18px;
+}
+
+.input-and-send-btn {
+    padding: 0% 8%;
+}
+
+.input-and-send-btn input {
+    height: 44px;
+    border: 2px rgb(226, 226, 226) solid;
+}
+
+.input-and-send-btn input::placeholder {
+    font-weight: 500;
+}
+
+.input-and-send-btn input:focus {
+    border: 2px solid royalblue;
+    outline: 0;
+}
+
+.messageList {
+    padding-bottom: 68px;
+}
+.bottomNavbar{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left : 0;
+}

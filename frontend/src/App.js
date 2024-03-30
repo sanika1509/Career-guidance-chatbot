@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Chat from "./chat/Chat";
+import CustomizedNavbar from "./navbar/Navbar";
+import Login from "./login/Login";
+import SignUp from "./signup/SignUp";
+import Profile from "./profile/Profile";
+import ReportGenerator from "./report/ReportGenerator";
+import ChatLists from "./chatLists/chatLists";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CustomizedNavbar />
+      {/* <Chat /> */}
+      {/* <Login /> */}
+      {/* <Profile /> */}
+      {/* <ReportGenerator /> */}
+      <ChatLists />
     </div>
   );
 }

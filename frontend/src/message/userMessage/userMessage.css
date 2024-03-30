@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.message-parent {
+    width: 74%;
+    background-color: white;
+    margin: 0% 8% 0% 18%;
+    border: 2px rgb(226, 226, 226) solid;
+    border-radius: 8px;
+    padding: 12px 22px;
+}
+
+.message-parent .user-name {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.message-parent .message {
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+}

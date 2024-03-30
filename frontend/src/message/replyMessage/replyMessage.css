@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.reply-message-parent {
+    width: 74%;
+    /* background-color: rgb(203, 212, 242); */
+    background-color: #aecefe;
+    margin: 0% 18% 0% 8%;
+    border-radius: 8px;
+    padding: 12px 22px;
+}
+
+.reply-message-parent .reply-user-name {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.reply-message-parent .message {
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+}
